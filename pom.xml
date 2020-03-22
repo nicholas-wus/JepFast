@@ -23,5 +23,6 @@
 	<modules>
 		<module>jepfast-dependencies</module>
 		<module>jepfast-web-api</module>
+		<module>jepfast-commons</module>
 	</modules>
 </project>
