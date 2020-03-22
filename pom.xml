@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.jepframework.fast</groupId>
-	<artifactId>jepfast-parent</artifactId>
+	<artifactId>jepfast</artifactId>
 	<version>3.0.0</version>
 	<!-- Packaging executable jar or war files. -->
 	<packaging>pom</packaging>
@@ -12,6 +12,7 @@
 	<name>jepfast</name>
 	<description>JepFast Framework for Java Developing</description>
 
+	<!-- Inherit defaults from Spring Boot -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -20,6 +21,6 @@
 	</parent>
 
 	<modules>
-
+		<module>jepfast-dependencies</module>
 	</modules>
 </project>
