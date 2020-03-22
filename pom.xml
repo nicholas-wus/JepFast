@@ -22,8 +22,9 @@
 
 	<modules>
 		<module>jepfast-dependencies</module>
-		<module>jepfast-manager</module>
 		<module>jepfast-dao</module>
+		<module>jepfast-manager</module>
+		<module>jepfast-service</module>
 		<module>jepfast-web-api</module>
 	</modules>
 </project>

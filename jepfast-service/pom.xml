@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jepfast-service</artifactId>
+    <!-- Packaging executable jar or war files. -->
+    <packaging>jar</packaging>
+
+    <name>jepfast-service</name>
+    <description>jepfast-service</description>
+
+    <parent>
+        <groupId>org.jepframework</groupId>
+        <artifactId>jepfast-dependencies</artifactId>
+        <version>3.0.0</version>
+        <relativePath/>
+    </parent>
+
+    <dependencies>
+        <!-- Project Start -->
+        <dependency>
+            <groupId>org.jepframework</groupId>
+            <artifactId>jepfast-manager</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <!-- Project End -->
+    </dependencies>
+</project>
