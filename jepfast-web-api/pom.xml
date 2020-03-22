@@ -14,10 +14,16 @@
 		<groupId>org.jepframework</groupId>
 		<artifactId>jepfast-dependencies</artifactId>
 		<version>3.0.0</version>
-		<relativePath>../jepfast-dependencies/pom.xml</relativePath>
+		<relativePath></relativePath>
 	</parent>
 
 	<dependencies>
-
+		<!-- Project Start -->
+		<dependency>
+			<groupId>org.jepframework</groupId>
+			<artifactId>jepfast-service</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
+		<!-- Project End -->
 	</dependencies>
 </project>
