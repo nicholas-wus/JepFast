@@ -22,5 +22,6 @@
 
 	<modules>
 		<module>jepfast-dependencies</module>
+		<module>jepfast-web-api</module>
 	</modules>
 </project>
