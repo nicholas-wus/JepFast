@@ -1,0 +1,12 @@
+server:
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  profiles:
+    active: local
+#    active: sit
+#    active: testing
+#    active: stage
+#    active: prod
+
