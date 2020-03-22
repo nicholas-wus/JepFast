@@ -25,7 +25,7 @@ import java.util.Map;
 public class ApiRequestLogAspect {
     private final static Logger LOGGER = LoggerFactory.getLogger(ApiRequestLogAspect.class);
 
-    @Pointcut("execution(* org.jepfast.webapi.web.controller.demo.controller..*(..))")
+    @Pointcut("execution(* org.jepfast.webapi.web.controller.demo..*.*(..))")
     public void requestServer() {
     }
 
