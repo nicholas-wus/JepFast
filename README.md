@@ -16,8 +16,10 @@ JepFast
 - SpringBoot 2.2.1
 - Spring 5.2.1
 - MyBatis 
-- Mybatis-plus 3.1.2
-- Druid 1.1.10
+- Mybatis-plus 
+- Alibaba Fastjson 1.2.67
+- Alibaba Druid 
 - redis
 - SLF4J
 - Logback
+- Lombok 1.18.12
