@@ -22,7 +22,8 @@
 
 	<modules>
 		<module>jepfast-dependencies</module>
-		<module>jepfast-web-api</module>
 		<module>jepfast-commons</module>
+		<module>jepfast-dao</module>
+		<module>jepfast-web-api</module>
 	</modules>
 </project>
