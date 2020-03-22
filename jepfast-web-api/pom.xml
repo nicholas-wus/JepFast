@@ -8,10 +8,10 @@
 	<packaging>war</packaging>
 
 	<name>jepfast-web-api</name>
-	<description></description>
+	<description>jepfast-web-api</description>
 
 	<parent>
-		<groupId>org.jepframework.fast</groupId>
+		<groupId>org.jepframework</groupId>
 		<artifactId>jepfast-dependencies</artifactId>
 		<version>3.0.0</version>
 		<relativePath>../jepfast-dependencies/pom.xml</relativePath>

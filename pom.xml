@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.jepframework.fast</groupId>
+	<groupId>org.jepframework</groupId>
 	<artifactId>jepfast</artifactId>
 	<version>3.0.0</version>
 	<!-- Packaging executable jar or war files. -->

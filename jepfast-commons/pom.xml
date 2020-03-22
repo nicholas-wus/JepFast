@@ -8,12 +8,12 @@
     <packaging>jar</packaging>
 
     <name>jepfast-commons</name>
-    <description></description>
+    <description>jepfast-commons</description>
 
     <parent>
-        <groupId>org.jepframework.fast</groupId>
+        <groupId>org.jepframework</groupId>
         <artifactId>jepfast-dependencies</artifactId>
         <version>3.0.0</version>
-        <relativePath>../jepfast-dependencies/pom.xml</relativePath>
+        <relativePath/>
     </parent>
 </project>
